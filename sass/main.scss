@@ -1,4 +1,21 @@
+// Utils
 @import './utils/variables';
+
+// Base
 @import './base/common';
 @import './base/container';
+
+// Utils
 @import './utils/visually-hidden';
+
+// layout
+@import './layout/header';
+@import './layout/hero';
+@import './layout/feature';
+@import './layout/works';
+@import './layout/teams';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/modal-windov';
+@import './layout/form';
+@import './layout/portfolio';
