@@ -8,6 +8,11 @@
 // Utils
 @import './utils/visually-hidden';
 
+// Components
+@import './components/backdrop';
+@import './components/modal-windov';
+@import './components/form';
+
 // layout
 @import './layout/header';
 @import './layout/hero';
@@ -16,6 +21,4 @@
 @import './layout/teams';
 @import './layout/clients';
 @import './layout/footer';
-@import './layout/modal-windov';
-@import './layout/form';
 @import './layout/portfolio';
