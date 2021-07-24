@@ -358,8 +358,7 @@ body {
 }
 
 .contact-link,
-.tel-link,
-.contact-link-footer {
+.tel-link {
   color: var(--second-color);
   font-weight: 500;
   font-size: 14px;
@@ -691,6 +690,22 @@ body {
   margin-top: 20px;
 }
 
+.contact-link-footer {
+  color: var(--second-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+}
+
+.contact-link-footer:hover, .contact-link-footer:focus {
+  color: var(--accent-color);
+}
+
 .address-footer {
   font-style: normal;
   font-size: 14px;
@@ -698,11 +713,6 @@ body {
   line-height: 1.72;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-
-.contact-link-footer:hover,
-.contact-link-footer:focus {
-  color: var(--accent-color);
 }
 
 .link-footer {
